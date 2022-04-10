@@ -8,7 +8,7 @@ const Profile = ({src, name, email}) => {
             <Picture src={src} width={64} height={64} />
             <div className="profile-info">
                 <h4>{name}</h4>
-                <Paragraph content={email} />
+                {email ? <Paragraph content={email} /> : <></>}
             </div>
         </Card>
     )

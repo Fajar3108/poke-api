@@ -2,6 +2,7 @@ import React, { lazy, Suspense } from "react";
 import { BrowserRouter as Router, Link, Route, Routes } from "react-router-dom";
 
 const Home = lazy(() => import('./Home'));
+const Pokemon = lazy(() => import('./Pokemon'));
 
 const App = () => {
   return (
@@ -13,6 +14,7 @@ const App = () => {
         </nav>
         <Routes>
           <Route path="/" element={<Home />} />
+          <Route path="/pokemon" element={<Pokemon />} />
         </Routes>
       </Suspense>
     </Router>  

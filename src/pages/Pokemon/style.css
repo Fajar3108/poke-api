@@ -1,0 +1,29 @@
+.pokemon-wrapper {
+  margin-top: 30px;
+}
+
+.pokemon-wrapper .row {
+  flex-direction: column;
+}
+
+.pokemon-wrapper .profile-card {
+  padding: 10px;
+  border: 1px solid #303030 !important;
+}
+
+.pokemon-wrapper .profile-card img {
+  border-radius: 0;
+  object-fit: contain;
+  border: 1px solid #000;
+}
+
+.pokemon-wrapper table {
+  width: 100%;
+  font-size: 14px;
+  text-align: left;
+}
+
+.pokemon-wrapper th,
+.pokemon-wrapper td {
+  padding: 10px;
+}
