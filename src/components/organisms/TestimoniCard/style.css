@@ -1,0 +1,13 @@
+.testimoni-card {
+  padding: 10px;
+  width: 100%;
+}
+
+.testimoni-card .profile-card {
+  margin-top: 10px;
+  flex-wrap: wrap;
+}
+
+p {
+  color: #303030;
+}

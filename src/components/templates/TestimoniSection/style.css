@@ -1,0 +1,17 @@
+.testimoni {
+  margin-top: 30px;
+}
+
+.testimoni h1 {
+  margin-bottom: 10px;
+}
+
+.testimoni .col {
+  padding: 10px;
+}
+
+@media screen and (max-width: 720px) {
+  .testimoni .row {
+    flex-direction: column;
+  }
+}

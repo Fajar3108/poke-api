@@ -1,0 +1,10 @@
+.profile-card {
+  flex-direction: row !important;
+  border: none !important;
+  align-items: center;
+}
+
+.profile-card img {
+  border-radius: 100px;
+  margin-right: 20px;
+}
